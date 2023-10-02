@@ -1,0 +1,60 @@
+.alertContainer {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .alertBoxAppearence {
+    z-index: 9999;
+    padding: 55px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.2);
+  
+    background-color: white;
+    top: 40%;
+  }
+  #alertIcon {
+    position: fixed;
+    left: 42%;
+    bottom: 87%;
+    background-color: green;
+    padding: 15px;
+  
+    color: white;
+    border-radius: 50px;
+  }
+
+  .alertHeading {
+    font-family: Montserrat;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .alertButton {
+    width: 100%;
+    border: none;
+  
+    background-color: #5667D9;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+  }
+  .alertButton:hover {
+    width: 100%;
+    border: none;
+  
+    background-color: #818fe7;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+  }
+  .alertButton:active {
+    width: 100%;
+    border: none;
+  
+    background-color:  #818fe7;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+  }
