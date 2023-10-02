@@ -6,7 +6,7 @@ export default function AlertComponent({ navigateTo }) {
 
     function handleOKButton()
     {
-      //Write code for action here
+      window.location.href = window.location.href;
     }
   return (
     <div className="alertContainer">
